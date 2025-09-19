@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Event Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    .poster {
+      max-width: 300px;
+      margin: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .map-container {
+      margin-top: 40px;
+    }
+    iframe {
+      width: 80%;
+      height: 400px;
+      border: 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>My Cool Event</h1>
+  
+  <img src="poster1.jpg" alt="Poster 1" class="poster">
+  <img src="poster2.jpg" alt="Poster 2" class="poster">
+  
+  <div class="map-container">
+    <h2>📍 Location</h2>
+    <!-- Example: Munich, Germany -->
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.025745655879!2d11.581980315655968!3d48.13512597922492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7595b0bc2d39%3A0x42f5189ba6d63f0!2sMunich!5e0!3m2!1sen!2sde!4v1672560000000!5m2!1sen!2sde" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</body>
+</html>
